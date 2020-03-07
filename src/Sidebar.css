@@ -1,0 +1,41 @@
+.side-nav {
+    background-color: var(--standout);
+    display: flex;
+    flex-direction: column;
+    color: white;
+    min-height: 100vh;
+    justify-content: space-evenly;
+}
+
+
+
+
+.nav-items > div {
+   margin-top: 4em;
+   text-align: center;
+}
+
+.nav-items > div:hover i{
+    display:none;
+}
+
+.nav-items > div > span{
+    display:none;
+}
+
+.nav-items > div:hover span {
+    display:block;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    background-color: var(--accent);
+    font-size: 1em;
+}
+
+
+
+
+
+
+
+
+

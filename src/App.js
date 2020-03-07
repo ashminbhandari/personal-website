@@ -1,36 +1,28 @@
-import React from 'react';
+import React, {useState} from 'react';
 import '../node_modules/font-awesome/css/font-awesome.min.css';
-import Typing from 'react-typing-animation';
 import './App.css';
+import Landing from './Landing';
+import Sidebar from './Sidebar';
 
 
-function App() {
-    return (
-        <div className="wrapper">
-            <div className="main-content">
-                <Typing className="text-design" cursorClassName="text-design" speed={150}>
-                    <span>if (hereFor === coder) &#123; </span>
-                </Typing>
-                <div>
-                    <i className="fa fa-code btn"/>
+class App extends React.Component {
+    render() {
+        return (
+            <div className="main-page-grid">
+                <div id="stars"/>
+                <div id="stars2"/>
+                <div id="stars3"/>
+                <div id="stars4"/>
+                <canvas ref={this.canvasRef} width={300} height={300}/>
+                <div className="sidebar">
+                    <Sidebar/>
                 </div>
-                <Typing className="text-design" cursorClassName="text-design" speed = {150} startDelay={4200}>
-                    <span>}</span>
-                </Typing>
-                <br/>
-                <br/>
-                <Typing className="text-design" cursorClassName="text-design" speed = {150} startDelay={4700}>
-                    <span>else &#123;</span>
-                </Typing>
-                <div>
-                    <i className="fa fa-camera btn"/>
+                <div className="content">
+                    <Landing/>
                 </div>
-                <Typing className="text-design" cursorClassName="text-design" speed = {150} startDelay={6000}>
-                    <span>}</span>
-                </Typing>
             </div>
-        </div>
-    );
+        );
+    }
 }
 
 export default App;

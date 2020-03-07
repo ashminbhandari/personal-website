@@ -1,0 +1,33 @@
+.wrapper {
+    background-color: var(--background);
+    min-height: 100vh;
+    display: flex;
+}
+
+.btn {
+    background-color: var(--accent);
+    border-radius: 50%;
+    padding: 1em;
+    margin-left: 1em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    color: white;
+    font-size: 7vmin;
+    position: inherit;
+
+}
+
+.btn:hover {
+    background-color: var(--hover);
+}
+
+
+.main-content {
+    margin: auto;
+}
+
+.text-design {
+    color: white;
+    font-size: 3vmin;
+    font-weight: 700;
+}

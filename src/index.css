@@ -1,9 +1,18 @@
+:root {
+  --background: #171917;
+  --standout: #1c1c1b;
+  --accent: #da4453;
+  --hover: #702219;
+}
+
+
 body {
   margin: 0;
   font-family: 'Courier New', BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Fira Sans', 'Oxygen', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
 }
 
 * {
