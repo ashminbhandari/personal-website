@@ -31,3 +31,12 @@
     font-size: 3vmin;
     font-weight: 700;
 }
+
+@media (max-width: 600px) {
+   .wrapper {
+       min-height: 85vh;
+   }
+}
+
+
+

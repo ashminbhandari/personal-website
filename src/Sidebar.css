@@ -10,26 +10,56 @@
 
 
 
-.nav-items > div {
+.nav-item {
    margin-top: 4em;
    text-align: center;
 }
 
-.nav-items > div:hover i{
+.nav-item:hover i{
     display:none;
 }
 
-.nav-items > div > span{
+.nav-item span{
     display:none;
 }
 
-.nav-items > div:hover span {
+.nav-item:hover span {
     display:block;
     padding-top: 2em;
     padding-bottom: 2em;
     background-color: var(--accent);
-    font-size: 1em;
+    font-size: 1.5em;
 }
+
+@media (max-width: 600px) {
+    .side-nav {
+        min-height: 15vh;
+        max-height: 15vh;
+        overflow: hidden;
+    }
+    .nav-items {
+        display: flex;
+        flex-direction: row;
+        align-items: stretch;
+    }
+
+    .nav-item {
+        margin-top:1em;
+        margin-bottom: 1em;
+        text-align: center;
+        flex: 1;
+    }
+
+    .nav-item:hover {
+        text-align: center;
+    }
+
+    .nav-item:hover span {
+        background-color: var(--accent);
+        font-size: 1.2em;
+    }
+}
+
 
 
 
