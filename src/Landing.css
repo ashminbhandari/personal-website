@@ -1,7 +1,10 @@
 .wrapper {
     background-color: var(--background);
-    min-height: 100vh;
     display: flex;
+    height: 100vh;
+    max-height: 100vh;
+    overflow: hidden;
+    font-size: 0.7vmin;
 }
 
 .btn {
@@ -14,8 +17,9 @@
     color: white;
     font-size: 7vmin;
     position: inherit;
-
 }
+
+
 
 .btn:hover {
     background-color: var(--hover);
@@ -24,19 +28,36 @@
 
 .main-content {
     margin: auto;
+    display: flex;
+    flex-direction: column;
 }
 
-.text-design {
-    color: white;
-    font-size: 3vmin;
-    font-weight: 700;
+#console-stmnt{
+    margin-top: 2em;
 }
+#console-stmnt1 {
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+
+
+
+
 
 @media (max-width: 600px) {
    .wrapper {
-       min-height: 85vh;
+       height: 90vh;
    }
+
+    .main-content {
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-right: auto;
+        margin-left: 35em;
+    }
 }
+
 
 
 

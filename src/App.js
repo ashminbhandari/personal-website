@@ -16,9 +16,13 @@ class App extends React.Component {
                     <div id="stars"/>
                     <div id="stars2"/>
                     <div id="stars3"/>
-                    <div id="stars4"/>
                 </div>
+
                 <BrowserRouter>
+
+
+
+
                     <div className="sidebar">
                         <Sidebar/>
                     </div>
@@ -28,7 +32,10 @@ class App extends React.Component {
                             <Route path="/about" component={About}/>
                         </Switch>
                     </div>
+
+
                 </BrowserRouter>
+
             </div>
         );
     }

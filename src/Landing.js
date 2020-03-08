@@ -7,26 +7,44 @@ function Landing() {
     return (
         <div className="wrapper">
             <div className="main-content">
-                <Typing className="text-design" cursorClassName="text-design" speed={150}>
+                <div id="console-stmnt">
+                <Typing className="text-design" cursorClassName="text-design" speed={40}>
+                    <span>console.log('Hello world! I am Ashmin');</span>
+                </Typing>
+                </div>
+                <div id="console-stmnt1">
+                    <Typing className="text-design" cursorClassName="text-design" speed={40} startDelay={2200}>
+                        <span>console.log('a web developer and photographer.');</span>
+                    </Typing>
+                </div>
+                <div>
+                <Typing className="text-design" cursorClassName="text-design" speed={40} startDelay={4700}>
                     <span>if (hereFor === coder) &#123; </span>
                 </Typing>
+                </div>
                 <div>
                     <i className="fa fa-code btn"/>
                 </div>
-                <Typing className="text-design" cursorClassName="text-design" speed={150} startDelay={4200}>
+                <div>
+                <Typing className="text-design" cursorClassName="text-design" speed={40} startDelay={6200}>
                     <span>}</span>
                 </Typing>
                 <br/>
                 <br/>
-                <Typing className="text-design" cursorClassName="text-design" speed={150} startDelay={4700}>
+                </div>
+                <div>
+                <Typing className="text-design" cursorClassName="text-design" speed={40} startDelay={6300}>
                     <span>else &#123;</span>
                 </Typing>
+                </div>
                 <div>
                     <i className="fa fa-camera btn"/>
                 </div>
-                <Typing className="text-design" cursorClassName="text-design" speed={150} startDelay={6000}>
+                <div>
+                <Typing className="text-design" cursorClassName="text-design" speed={40} startDelay={6700}>
                     <span>}</span>
                 </Typing>
+                </div>
             </div>
         </div>
     );

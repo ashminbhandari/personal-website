@@ -8,11 +8,12 @@
 
 body {
   margin: 0;
+  min-height: 100vh;
   font-family: 'Courier New', BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Fira Sans', 'Oxygen', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-
+  overflow-y: hidden;
 }
 
 * {
@@ -22,4 +23,26 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 1vw;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: var(--background);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: dimgrey;
+  border-radius:10px;
+  opacity: 0.1;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
 }
