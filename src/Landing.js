@@ -18,7 +18,7 @@ function Landing() {
                     </Typing>
                 </div>
                 <div>
-                <Typing className="text-design" cursorClassName="text-design" speed={40} startDelay={4700}>
+                <Typing className="text-design" cursorClassName="text-design" speed={40} startDelay={5100}>
                     <span>if (hereFor === coder) &#123; </span>
                 </Typing>
                 </div>

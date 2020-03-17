@@ -5,6 +5,49 @@
 
 .introduction {
     margin:auto;
+    padding: 10%;
 }
 
+.coder-or-photo {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    margin: auto;
+    padding-right: 10em;
+}
+
+.about-btn {
+    color: white;
+    font-size: 7vmin;
+    position: inherit;
+    height: 100%;
+    margin: 20%;
+}
+
+.hide-for-big{
+    display: none;
+}
+.introduction i {
+    margin-right: 1em;
+}
+
+.introduction i:hover {
+    margin-right: 1em;
+    color: var(--accent);
+}
+
+.about-btn:hover {
+    color: var(--accent);
+}
+
+@media (max-width: 800px) {
+    .coder-or-photo {
+        display:none;
+    }
+
+    .hide-for-big {
+        display: inline;
+    }
+
+}
 

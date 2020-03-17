@@ -28,7 +28,7 @@
     padding-top: 2em;
     padding-bottom: 2em;
     background-color: var(--accent);
-    font-size: 1.5em;
+    font-size: 0.7em;
 }
 
 @media (max-width: 600px) {
