@@ -5,6 +5,8 @@
     color: white;
     height: 100vh;
     justify-content: space-evenly;
+    position: fixed;
+    width: 12vh;
 }
 
 .nav-item {
@@ -27,14 +29,17 @@
     display: block;
     padding-top: 2em;
     padding-bottom: 2em;
-    background-color: var(--accent);
-    font-size: 0.7em;
+    background-color: white;
+    color: black;
+    font-size: 1.5em;
 }
 
 @media (max-width: 600px) {
     .side-nav {
         height: 10vh;
-        overflow: hidden;
+        width: 100vw;
+        position: fixed;
+        bottom: 0;
     }
 
     .nav-items {
@@ -56,12 +61,13 @@
     }
 
     .nav-item i, .nav-item span {
-        font-size: 0.7em;
+        font-size: 1em;
     }
 
     .nav-item:hover span {
-        background-color: var(--accent);
+        background-color: white;
         font-size: 0.7em;
+        height: 100%;
     }
 }
 

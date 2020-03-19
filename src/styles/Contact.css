@@ -1,0 +1,77 @@
+.contact-wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.contact-wrapper form {
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+    justify-content: space-between;
+}
+.contact-wrapper #name {
+    width: 46%;
+}
+
+.contact-wrapper #email {
+    width: 46%;
+}
+
+.contact-wrapper #subject {
+    display: flex;
+    width: 100%;
+}
+
+.contact-wrapper #message {
+    display: flex;
+    width: 100%;
+    height: 10em;
+    text-align: justify;
+}
+
+.contact-wrapper div {
+    padding-left: 5%;
+}
+
+.contact-wrapper img {
+    height:25vmin;
+}
+
+.contact-wrapper form input, textarea{
+    font-size: 0.9em;
+    height: 1.5em;
+    border: solid 0.1em;
+    padding-left: 0.5em;
+    margin-bottom: 1.5em;
+    resize: none;
+}
+
+.contact-wrapper button, .contact-wrapper a {
+    text-decoration: none;
+    background-color: black;
+    border: none;
+    padding: 0.5em;
+    margin-bottom: 2em;
+    color: white;
+}
+
+.contact-wrapper button:hover, a:hover {
+    background-color: white;
+    color: black;
+}
+
+@media (max-width:600px) {
+    .contact-wrapper form {
+        width: 90%;
+    }
+
+    #phone {
+        margin-right: 40%;
+    }
+}
+
+
+
+

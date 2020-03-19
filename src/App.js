@@ -1,17 +1,22 @@
 import React from 'react';
 import {BrowserRouter, Switch, Route} from 'react-router-dom';
-import '../node_modules/font-awesome/css/font-awesome.min.css';
+import 'font-awesome/css/font-awesome.min.css';
 import './App.css';
-import Landing from './Landing';
-import Sidebar from './Sidebar';
-import About from './About';
-import Contact from './Contact';
+import Landing from './components/Landing';
+import Sidebar from './components/Sidebar';
+import About from './components/About';
+import Contact from './components/Contact';
+import Coder from './components/Coder';
+import Photo from './components/Photo';
+
+
 
 class App extends React.Component {
     render() {
         return (
 
             <div className="main-page-grid">
+
                 <div className="stars-container">
                     <div id="stars"/>
                     <div id="stars2"/>
@@ -19,9 +24,6 @@ class App extends React.Component {
                 </div>
 
                 <BrowserRouter>
-
-
-
 
                     <div className="sidebar">
                         <Sidebar/>
@@ -31,12 +33,11 @@ class App extends React.Component {
                             <Route path="/" exact component={Landing}/>
                             <Route path="/about" component={About}/>
                             <Route path="/contact" component={Contact}/>
+                            <Route path="/coder" component ={Coder}/>
+                            <Route path="/photo" component={Photo}/>
                         </Switch>
                     </div>
-
-
                 </BrowserRouter>
-
             </div>
         );
     }
