@@ -6,53 +6,56 @@
     height: 100vh;
     justify-content: space-evenly;
     position: fixed;
-    width: 12vh;
+    width: 100px;
+    font-size: 0.7em;
 }
 
 .nav-item {
     margin-top: 4em;
     text-align: center;
 }
-.nav-item i {
-    font-size: 2em;
-}
+
 
 .nav-item:hover i {
     display: none;
 }
 
 .nav-item span {
+    padding-top:1rem;
+    padding-bottom: 1rem;
+    font-size: 1.3rem;
     display: none;
 }
 
 .nav-item:hover span {
     display: block;
-    padding-top: 2em;
-    padding-bottom: 2em;
     background-color: white;
     color: black;
-    font-size: 1.5em;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 650px) {
     .side-nav {
         height: 10vh;
         width: 100vw;
         position: fixed;
         bottom: 0;
+        font-size: 0.3rem;
     }
+
+    .nav-item span {
+        font-size: 0.3rem;
+        justify-content: center;
+        padding: 2.8em;
+    }
+
 
     .nav-items {
         display: flex;
         flex-direction: row;
-        align-items: stretch;
     }
 
     .nav-item {
-        margin-top: 1em;
-        margin-bottom: 1em;
-        text-align: center;
-        flex: 1;
+        margin: auto;
     }
 
     .nav-item:hover {
@@ -60,14 +63,9 @@
         text-align: center;
     }
 
-    .nav-item i, .nav-item span {
-        font-size: 1em;
-    }
-
     .nav-item:hover span {
         background-color: white;
-        font-size: 0.7em;
-        height: 100%;
+        margin: auto;
     }
 }
 

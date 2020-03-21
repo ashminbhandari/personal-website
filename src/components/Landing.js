@@ -4,7 +4,7 @@ import 'font-awesome/css/font-awesome.min.css';
 import Typing from 'react-typing-animation';
 import '../styles/Landing.css';
 
-function Landing() {
+const Landing = () => {
     return (
         <div className="wrapper">
             <div className="main-content">
@@ -23,9 +23,9 @@ function Landing() {
                         <span>if (hereFor === coder) &#123; </span>
                     </Typing>
                 </div>
-                <div>
-                    <NavLink to="/coder" style={{color: '#fff', textDecoration: 'none'}}>
-                        <i className="fa fa-code btn"/>
+                <div className="github-icon">
+                    <NavLink to={{pathname:"/loading", state:"/code"}} style={{color: '#fff', textDecoration: 'none'}}>
+                        <i className="fa fa-github btn"/>
                     </NavLink>
                 </div>
                 <div>
@@ -40,9 +40,9 @@ function Landing() {
                         <span>else &#123;</span>
                     </Typing>
                 </div>
-                <div>
-                    <NavLink to="/photo" style={{color: '#fff', textDecoration: 'none'}}>
-                        <i className="fa fa-camera btn"/>
+                <div className="github-icon">
+                    <NavLink to={{pathname:"/loading", state:"/photo"}} style={{color: '#fff', textDecoration: 'none'}}>
+                        <i className="fa fa-camera-retro btn"/>
                     </NavLink>
                 </div>
                 <div>
@@ -53,6 +53,6 @@ function Landing() {
             </div>
         </div>
     );
-}
+};
 
 export default Landing;

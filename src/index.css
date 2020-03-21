@@ -5,6 +5,7 @@
   --hover: white;
 }
 
+
 /* dm-sans-regular - latin */
 @font-face {
   font-family: 'DM Sans';
@@ -22,8 +23,6 @@
 
 
 body {
-  margin: 0;
-  height: 100vh;
   font-family: 'DM Sans', BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Fira Sans', 'Oxygen', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
