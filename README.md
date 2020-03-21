@@ -1,1 +1,1 @@
-Personal website using React
+Portfolio made using React and pure CSS
