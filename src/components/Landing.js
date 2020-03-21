@@ -24,7 +24,7 @@ const Landing = () => {
                     </Typing>
                 </div>
                 <div className="github-icon">
-                    <NavLink to={{pathname:"/loading", state:"/code"}} style={{color: '#fff', textDecoration: 'none'}}>
+                    <NavLink to={{pathname:"/loading", state:"/coder"}} style={{color: '#fff', textDecoration: 'none'}}>
                         <i className="fa fa-github btn"/>
                     </NavLink>
                 </div>
