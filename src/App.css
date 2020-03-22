@@ -1,5 +1,3 @@
-
-
 .main-page-grid {
     position: relative;
     display: grid;
@@ -27,9 +25,7 @@
     font-weight: 700;
 }
 
-
-
-@media (max-width: 600px) {
+@media (max-device-width: 600px) {
     .main-page-grid {
         display: flex;
         flex-direction: column;
@@ -48,8 +44,6 @@
         order: 2;
     }
 }
-
-
 
 .stars-container {
     height: 0;

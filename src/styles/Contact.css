@@ -63,7 +63,7 @@
     color: black;
 }
 
-@media (max-width:600px) {
+@media (max-device-width:600px) {
     .contact-wrapper form {
         width: 90%;
         margin-bottom: 15vh;

@@ -46,7 +46,7 @@
     margin-bottom: 5em;
 }
 
-@media (max-width: 600px) {
+@media (max-device-width: 600px) {
    .wrapper {
        font-size: 1.4vmin;
        height: 77vh;

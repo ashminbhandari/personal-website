@@ -3,7 +3,7 @@ import '../styles/Photo.css';
 import ModalImage from "react-modal-image";
 
 const Photo = () => {
-    const [images] = useState( [
+    const [images] = useState([
         require('../images/image (8).JPG'),
         require('../images/image (17).jpg'),
         require('../images/image (3).jpg'),
@@ -35,6 +35,7 @@ const Photo = () => {
         require('../images/image (27).jpg'),
         require('../images/image (30).jpg'),
     ]);
+
 
     return (
         <div className="photos-container">

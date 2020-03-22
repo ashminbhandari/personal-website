@@ -43,7 +43,7 @@
     max-height: 10em;
 }
 
-@media (max-width: 800px) {
+@media (max-device-width: 800px) {
     .coder-or-photo {
         display:none;
     }

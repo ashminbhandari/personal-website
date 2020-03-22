@@ -1,3 +1,7 @@
+.coder-parent {
+    display: flex;
+    flex-direction: column;
+}
 .project {
     color:white;
     overflow-y: scroll;
@@ -30,5 +34,9 @@
     color: black;
     background-color: white;
     border: solid black;
+}
+
+.experiences {
+    margin: auto;
 }
 

@@ -4,9 +4,11 @@ import 'font-awesome/css/font-awesome.min.css';
 import Typing from 'react-typing-animation';
 import '../styles/Landing.css';
 
+
 const Landing = () => {
     return (
         <div className="wrapper">
+
             <div className="main-content">
                 <div id="console-stmnt">
                     <Typing className="text-design" cursorClassName="text-design" speed={40}>
@@ -24,7 +26,8 @@ const Landing = () => {
                     </Typing>
                 </div>
                 <div className="github-icon">
-                    <NavLink to={{pathname:"/loading", state:"/coder"}} style={{color: '#fff', textDecoration: 'none'}}>
+                    <NavLink to={{pathname: "/loading", state: "/coder"}}
+                             style={{color: '#fff', textDecoration: 'none'}}>
                         <i className="fa fa-github btn"/>
                     </NavLink>
                 </div>
@@ -41,9 +44,11 @@ const Landing = () => {
                     </Typing>
                 </div>
                 <div className="github-icon">
-                    <NavLink to={{pathname:"/loading", state:"/photo"}} style={{color: '#fff', textDecoration: 'none'}}>
+                    <NavLink to={{pathname: "/loading", state: "/photo"}}
+                             style={{color: '#fff', textDecoration: 'none'}}>
                         <i className="fa fa-camera-retro btn"/>
                     </NavLink>
+
                 </div>
                 <div>
                     <Typing className="text-design" cursorClassName="text-design" speed={40} startDelay={7600}>
@@ -55,4 +60,7 @@ const Landing = () => {
     );
 };
 
+
 export default Landing;
+
+

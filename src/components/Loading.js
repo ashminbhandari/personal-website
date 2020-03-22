@@ -1,6 +1,6 @@
 import React, {useEffect} from 'react';
 import ReactLoading from 'react-loading';
-import peep from '../images/peep-standing-13.png';
+import peep from '../images/peep-34.png';
 import '../styles/Loading.css';
 
 const Loading = (props) => {
@@ -13,7 +13,7 @@ const Loading = (props) => {
     return (
         <div className="loadingContainer">
             <img src={peep} alt="Credit to the open peep library"/>
-            <h1>Ashmin is thinking...</h1>
+            <h3>Ashmin is thinking...</h3>
             <ReactLoading type={'bars'} color={'black'} height={'7%'} width={'7%'}/>
         </div>
     );
