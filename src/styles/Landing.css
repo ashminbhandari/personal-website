@@ -15,8 +15,6 @@
     box-sizing: border-box;
 }
 
-
-
 .btn:hover {
     box-sizing: border-box !important;
     background-color: var(--hover);
@@ -42,11 +40,12 @@
     margin-top: 5em;
     margin-bottom: 5em;
 }
+
 #console-stmnt1 {
     margin-bottom: 5em;
 }
 
-@media (max-device-width: 600px) {
+@media (max-width: 600px) {
    .wrapper {
        font-size: 1.4vmin;
        height: 77vh;

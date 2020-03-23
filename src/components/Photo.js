@@ -36,7 +36,6 @@ const Photo = () => {
         require('../images/image (30).jpg'),
     ]);
 
-
     return (
         <div className="photos-container">
             {

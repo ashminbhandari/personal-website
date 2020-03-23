@@ -16,7 +16,7 @@
     height: auto !important;
 }
 
-@media (max-device-width: 800px) {
+@media (max-width: 800px) {
     .photos-container {
         -webkit-column-count: 1;
         -moz-column-count: 1;

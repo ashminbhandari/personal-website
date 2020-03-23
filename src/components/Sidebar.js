@@ -3,7 +3,6 @@ import '../styles/Sidebar.css';
 import {NavLink} from 'react-router-dom';
 import pdf from '../misc/resume.pdf';
 
-
 const Sidebar = () => {
     return(
         <div className="side-nav text-design">
@@ -45,4 +44,5 @@ const Sidebar = () => {
         </div>
     );
 };
+
 export default Sidebar;

@@ -2,6 +2,7 @@
     display: flex;
     flex-direction: column;
 }
+
 .project {
     color:white;
     overflow-y: scroll;
@@ -17,6 +18,7 @@
 .project i {
     margin: 1em;
 }
+
 .project a {
     text-decoration: none;
     color: white;
@@ -39,4 +41,6 @@
 .experiences {
     margin: auto;
 }
+
+
 
