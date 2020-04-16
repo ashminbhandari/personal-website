@@ -24,6 +24,11 @@ const Coder = () => {
             tech: 'Java Android, C++, Python versions',
         },
         {
+            title: 'storyTweets',
+            link: 'https://github.com/ashminbhandari/storyTweets-py',
+            tech: 'Python, Selenium'
+        },
+        {
             title: 'VC3600 Assembler',
             link: 'https://github.com/ashminbhandari/VC3600-Assembler',
             tech: 'C++'

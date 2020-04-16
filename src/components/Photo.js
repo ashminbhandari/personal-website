@@ -4,14 +4,14 @@ import ModalImage from "react-modal-image";
 
 const Photo = () => {
     const [images] = useState([
-        require('../images/image (8).JPG'),
+        require('../images/image (8).jpeg'),
         require('../images/image (17).jpg'),
         require('../images/image (3).jpg'),
         require('../images/image (9).jpg'),
         require('../images/image (21).jpg'),
         require('../images/image (5).jpg'),
-        require('../images/image (6).JPG'),
-        require('../images/image (7).JPG'),
+        require('../images/image (6).jpeg'),
+        require('../images/image (7).jpeg'),
         require('../images/image (22).jpg'),
         require('../images/image (23).jpg'),
         require('../images/image (15).jpg'),
