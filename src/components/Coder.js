@@ -8,13 +8,13 @@ const trans = (x, y, s) => `perspective(600px) rotateX(${x}deg) rotateY(${y}deg)
 const Coder = () => {
     const [projects] = useState([
         {
-            title: 'openCircle',
-            link: 'https://github.com/ashminbhandari/open-circle',
-            tech: 'HTML, CSS, Javascript, React, Node.js, Firebase'
+            title: 'openCircle for iOS',
+            link: 'https://github.com/ashminbhandari/opencircle-react-native',
+            tech: 'MongoDB, Express.js, React Native, Node.js'
         },
         {
-            title: 'Knapsack',
-            link: 'https://github.com/ashminbhandari/BrainPhonic',
+            title: 'Create Together',
+            link: 'https://github.com/ashminbhandari/create-together',
             tech: 'HTML, CSS, Bootstrap, React'
 
         },
