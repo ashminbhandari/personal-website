@@ -8,7 +8,6 @@ import '../styles/Landing.css';
 const Landing = () => {
     return (
         <div className="wrapper">
-
             <div className="main-content">
                 <div id="console-stmnt">
                     <Typing className="text-design" cursorClassName="text-design" speed={40}>
@@ -17,7 +16,7 @@ const Landing = () => {
                 </div>
                 <div id="console-stmnt1">
                     <Typing className="text-design" cursorClassName="text-design" speed={40} startDelay={2200}>
-                        <span>console.log('a web developer and photographer.');</span>
+                        <span>console.log('a software developer and photographer.');</span>
                     </Typing>
                 </div>
                 <div>
