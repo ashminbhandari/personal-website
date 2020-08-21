@@ -12,9 +12,8 @@ const About = () => {
                 <img src={peep} alt="Credit to the open-peeps illustration library"/>
                 <h1>About Me</h1>
                 <br/>
-                <p>I am a Computer Science student graduating this June from
-                Ramapo College of New Jersey. I am a person who loves to create, be it through code
-                or any other medium. My attempt has been these days to combine my love for visual arts, especially photography and computer science. I also endeavor to combine music into my program creations.</p>
+                <p>To code is to create. Software Engineer and Photographer pushing to bring positive changes in the world via code.
+                    Currently, working together with a thriving group of global volunteers to ease the pain of the COVID-19 pandemic and others to come at FightPandemics.</p>
                 <br/>
                 <div className="socials">
                     <a href="https://linkedin.com/in/ashminbhandari" rel="noopener noreferrer" target="_blank" style={{color: "inherit"}}><i className="fa fa-linkedin fa-2x"/></a>

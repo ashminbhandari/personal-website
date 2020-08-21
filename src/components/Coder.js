@@ -9,50 +9,32 @@ const Coder = () => {
     const [projects] = useState([
         {
             title: 'openCircle for iOS',
-            link: 'https://github.com/ashminbhandari/opencircle-react-native',
-            tech: 'MongoDB, Express.js, React Native, Node.js'
+            link: 'https://apps.apple.com/us/app/opencircle-music-discovery/id1516421718?ls=1',
+            store: 'https://apps.apple.com/us/app/opencircle-music-discovery/id1516421718?ls=1',
+            desc: 'Music discovery platform'
         },
         {
-            title: 'Create Together',
-            link: 'https://github.com/ashminbhandari/create-together',
-            tech: 'HTML, CSS, Bootstrap, React'
+            title: 'Draw Together',
+            demo: 'https://morning-eyrie-11918.herokuapp.com/',
+            link: 'https://morning-eyrie-11918.herokuapp.com/',
+            desc: 'Real-time collaboratory drawing application'
 
         },
         {
             title: 'Five Crowns',
             link: 'https://github.com/ashminbhandari/FiveCrowns-Android',
-            tech: 'Java Android, C++, Python versions',
+            desc: 'Multi-player card game featuring versus AI',
         },
         {
             title: 'storyTweets',
             link: 'https://github.com/ashminbhandari/storyTweets-py',
-            tech: 'Python, Selenium'
+            desc: 'Selenium bot to automatically push twitter tweets to Instagram stories'
         },
         {
             title: 'VC3600 Assembler',
             link: 'https://github.com/ashminbhandari/VC3600-Assembler',
-            tech: 'C++'
+            tech: 'Assembler for VC3600 computer, a fake decimal computer with 100,000 words of memory'
         },
-        {
-            title: 'iLocate',
-            link: 'https://github.com/ashminbhandari/iLocate',
-            tech: 'HTML, Bootstrap, Node.js, Express.js'
-        },
-        {
-            title: 'Coyote Hunter',
-            link: 'https://github.com/ashminbhandari/Coyote-Hunt',
-            tech: 'Java'
-        },
-        {
-            title: 'Poker Hands Classifier',
-            link: 'https://github.com/ashminbhandari/Poker-Hands-Classification',
-            tech: 'NumPy, Pandas, Matplotlib, Scikit-learn, Tensorflow, Keras'
-        },
-        {
-            title: 'Movie Recommender',
-            link: 'https://github.com/ashminbhandari/Movie-Recommender',
-            tech: 'Hadoop MapReduce'
-        }
     ]);
 
     const [props, set] = useSpring(() => ({
@@ -73,8 +55,10 @@ const Coder = () => {
                                 style={{transform: props.xys.interpolate(trans)}}
                             >
                                 <h1>{project.title}</h1>
-                                <i className="fa fa-github fa-2x"/>
-                                <h3>{project.tech}</h3>
+                                {
+                                    project.store ? <i className="fa fa-apple fa-3x"/> : project.demo ?
+                                        <i className={"fa fa-play fa-3x"}/> : <i className={"fa fa-github-alt fa-3x"}/>
+                                }
                             </animated.div>
                         </a>
                     ))

@@ -19,17 +19,12 @@ const Sidebar = () => {
                 </div>
                 <div className="nav-item">
                     <NavLink to={{pathname:"/loading", state:"/coder"}} style={{color: '#fff', textDecoration: 'none'}}>
-                        <i className="fa fa-github fa-3x"/><span>Code</span>
+                        <i className="fa fa-github-alt fa-3x"/><span>Code</span>
                     </NavLink>
                 </div>
                 <div className="nav-item">
                     <NavLink to={{pathname:"/loading", state:"/photo"}} style={{color: '#fff', textDecoration: 'none'}}>
                         <i className="fa fa-camera-retro fa-3x"/><span>Photo</span>
-                    </NavLink>
-                </div>
-                <div className="nav-item">
-                    <NavLink to={{pathname:"/loading", state:"/sound"}} style={{color: '#fff', textDecoration: 'none'}}>
-                        <i className="fa fa-soundcloud fa-3x"/><span>Sound</span>
                     </NavLink>
                 </div>
                 <div className="nav-item">

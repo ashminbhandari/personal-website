@@ -14,13 +14,10 @@ import Error404 from './components/Error404';
 import Sound from './components/Sound';
 import Loading from './components/Loading';
 
-
-
 class App extends React.Component {
     render() {
         return (
             <div className="main-page-grid">
-
                 <div className="stars-container">
                     <div id="stars"/>
                     <div id="stars2"/>
